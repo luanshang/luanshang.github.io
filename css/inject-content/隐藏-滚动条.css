@@ -1,0 +1,9 @@
+/* 隐藏垂直滚动条 */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* 隐藏水平滚动条 */  
+body {
+  overflow-x: hidden; 
+}
